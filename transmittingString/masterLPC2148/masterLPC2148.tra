@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'masterLPC2148.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "main.o" 
+--strict --scatter "masterLPC2148.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\masterLPC2148.map" -o masterLPC2148.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'masterLPC2148.axf'
+### ADS-LD Command File: 'masterLPC2148.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'masterLPC2148.lnp', Handle=0x00000620
+### Writing '.lnp' file
+### ADS-LD Command file 'masterLPC2148.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
